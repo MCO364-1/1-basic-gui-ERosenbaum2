@@ -19,6 +19,7 @@ public class Main {
         window.add(label);
         window.setVisible(true);
         window.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+
         pressMeButton.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
                 int num = Integer.parseInt(numberOne.getText());
